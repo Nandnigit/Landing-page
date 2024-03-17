@@ -1,12 +1,15 @@
-*{
-    box-sizing: border-box;
-}
-body{
+
+.home_body{
     background: rgb(2,0,36);
 background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(16,3,40,1) 30%, rgba(0,31,255,1) 100%);
     color: white;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:100%;
+    margin:0%;
+}
+body{
+    background-color: black;
 }
 .btn1{
     font-size: x-large;
@@ -26,7 +29,12 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(16,3,40,1) 30%, rgba
     margin-bottom: 2%;
     margin-top: 3%;
 }
-img{
+.Homeimg{
    width:100%;
    height:auto;
+}
+@media only screen and(max-width:425px){
+    .home_body{
+        width:100%;
+    }
 }
