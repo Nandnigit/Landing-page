@@ -26,3 +26,7 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(16,3,40,1) 30%, rgba
     margin-bottom: 2%;
     margin-top: 3%;
 }
+img{
+   width:100%;
+   height:auto;
+}
