@@ -1,0 +1,106 @@
+.neuton-regular {
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #fff;
+  font-size: 115px;
+  /* font-size: calc(8vw - 50%); */
+  line-height: 0.85em;
+}
+
+
+
+h4 {
+  letter-spacing: -0.5px;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+p {
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+@media screen and (max-width:640px) {
+  h1 {
+    font-size: 18vw;
+  }
+  
+  .neuton-regular{
+    font-weight: 500;
+  }
+
+  h4 {
+    font-size: 3.5vw;
+  }
+
+  p {
+    font-size: 3vw;
+  }
+}
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  filter: grayscale(100%);
+}
+
+.video-container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.7) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  box-shadow: inset 0 -20px 10px -5px #000000;
+}
+
+.video-container-overlay {
+  z-index: 1;
+  opacity: 0.1;
+  background: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  box-shadow: inset 0 -20px 10px -5px #000000;
+}
+
+.video-container-overlay::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.7) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+@media screen and (max-width:640px) {
+  .video-container{
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .video-controller {
+   object-fit: cover;
+  }
+}

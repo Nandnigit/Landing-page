@@ -1,0 +1,110 @@
+.photos-section {
+  transition: background-color 0.3s ease;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  position: relative;
+  background-color: white;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 140px 40px;
+  display: flex;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 5px;
+}
+
+.curated-div {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  align-items: center;
+  display: flex;
+}
+
+.curated {
+  background-image: radial-gradient(circle, #8d8d8d, #000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  letter-spacing: -0.5px;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.line {
+  width: 64px;
+  height: 1px;
+  background-color: #000;
+  padding-right: 0;
+}
+
+.msh-image {
+  width: 70vh;
+  max-width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.community2-image {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 5px;
+}
+
+.comm-image {
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 1;
+}
+
+.community-content {
+  z-index: 3;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.learning-cards-title {
+  font-size: 6vw;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.learning-body-text {
+  letter-spacing: -0.5px;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.comm-ovrelay {
+  z-index: 1;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(255, 255, 255, 0) 54%,
+    rgba(0, 0, 0, 0.6)
+  );
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
