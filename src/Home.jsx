@@ -20,13 +20,13 @@
             <h3>Join leaders at marquee internet companies</h3>
             <img src="https://assets-global.website-files.com/63a49822ee2304acc9455a42/65842ad7fd3d64853ccdf1a7_homapge_logos%20(4)-p-1080.png" className="Homeimg"/>
             </div>        
+           <App/>
             
-       <Threepillors/>
-       
+         <Threepillors/>
+         
         <Threeoutcomes/>
         <AnnualRetreatSection/>
         <ExHeadTestimonialSection/>
-        <App/>
             </>
       )
   }

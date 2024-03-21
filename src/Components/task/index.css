@@ -9,6 +9,7 @@ body {
 h1 {
   margin-top: 20px;
   margin-bottom: 10px;
+  padding: 1rem;
   font-size: 40px;
   font-weight: 500;
   line-height: 48px;
@@ -51,7 +52,7 @@ h6 {
   line-height: 18px;
 }
 
-.homepage-text-section {
+/* .homepage-text-section {
   z-index: 200;
   height: auto;
   background-color: rgba(0, 0, 0, 0);
@@ -65,10 +66,10 @@ h6 {
   padding: 60px 0;
   display: flex;
   position: relative;
-}
+} */
 
-.homepage-text-content {
-  max-width: 1080px;
+/* .homepage-text-content {
+  max-width: 100%;
   text-align: center;
   flex-direction: column;
   justify-content: flex-start;
@@ -78,7 +79,7 @@ h6 {
   display: flex;
   position: static;
   top: 50%;
-}
+} */
 
 .homepage-headline {
   color: #575757;
@@ -142,7 +143,7 @@ h6 {
 }
 
 .c-cards-list {
-  transition: all .2s;
+  /* transition: all .2s; */
   position: relative;
 }
 
@@ -159,44 +160,45 @@ h6 {
   max-width: 650px;
   margin-left: auto;
   margin-right: auto;
-  transition: all .25s;
+  /* transition: all .25s; */
   position: relative;
   box-shadow: 0 -5px 40px #000;
 }
 
-.c-card._4 {
+/* .c-card._4 {
   position: -webkit-sticky;
   position: sticky;
   top: 40px;
-}
+} */
 
-.c-card._1 {
+/* .c-card._1 {
   position: -webkit-sticky;
   position: sticky;
   top: 100px;
-}
-
+} */
+/* 
 .c-card._3 {
   position: -webkit-sticky;
   position: sticky;
   top: 260px;
-}
+} */
 
-.c-card._2 {
+/* .c-card._2 {
   position: -webkit-sticky;
   position: sticky;
   top: 180px;
-}
+} */
 
-.c-card-details {
+/* .c-card-details {
   margin-bottom: 20px;
-}
+} */
 
 ._w-card {
   background-color: #101010;
   border-radius: 10px;
-  margin-bottom: 100px;
-  padding: 30px;
+  padding: 1rem;
+  /* margin-bottom: 100px; */
+  /* padding: 30px; */
   position: relative;
   box-shadow: 1px 1px 15px rgba(19, 19, 19, .5);
 }
@@ -217,15 +219,19 @@ h6 {
 }
 
  .cards-container {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
+  /* position: absolute; */
+  
+  /* height: 100vh;
+  width: 100vw; */
+  /* top: 100%;
+  left: 50%; */
+  /* transform: translateX(-50%); */
   display: flex;
   flex-direction: column;
+  gap: 2rem;
 }
 
-.c-card {
+/* .c-card {
   margin-top: 100px;
   background-color: transparent;
   transition: margin-top 0.3s ease;
@@ -242,7 +248,13 @@ h6 {
 .c-card._4 {
   margin-top: -50px;
 
-}  
+}   */
+@media (max-width:768px){
+  .homepage-headline{
+    font-size: 2rem;
+    width: 100%;
+  }
+}
 
 
 

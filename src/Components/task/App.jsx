@@ -4,30 +4,30 @@ import './index.css';
 const ScrollBoldWhiteText = () => {
   const [currentLine, setCurrentLine] = useState(1);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const lines = document.querySelectorAll('.homepage-headline span');
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const lines = document.querySelectorAll('.homepage-headline span');
 
-      lines.forEach((line, index) => {
-        const rect = line.getBoundingClientRect();
-        const isLineVisible = rect.top >= 0 && rect.bottom <= window.innerHeight;
-        const isNextLine = index + 1 === currentLine;
+  //     lines.forEach((line, index) => {
+  //       const rect = line.getBoundingClientRect();
+  //       const isLineVisible = rect.top >= 0 && rect.bottom <= window.innerHeight;
+  //       const isNextLine = index + 1 === currentLine;
 
-        if (isLineVisible) {
-          line.style.color = isNextLine ? 'white' : 'rgb(87, 87, 87)';
-        }
-      });
+  //       if (isLineVisible) {
+  //         line.style.color = isNextLine ? 'white' : 'rgb(87, 87, 87)';
+  //       }
+  //     });
 
-      // Increment the current line for the next iteration
-      setCurrentLine((prevLine) => (prevLine % lines.length) + 1);
-    };
+  //     // Increment the current line for the next iteration
+  //     setCurrentLine((prevLine) => (prevLine % lines.length) + 1);
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
+  //   window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [currentLine]);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, [currentLine]);
 
   return (
     <section
