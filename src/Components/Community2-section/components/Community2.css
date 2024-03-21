@@ -9,7 +9,6 @@ h1 {
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: #fff;
   font-size: 115px;
-  /* font-size: calc(8vw - 50%); */
   line-height: 0.85em;
 }
 
@@ -27,10 +26,25 @@ p {
   font-size: 16px;
   line-height: 1.5em;
 }
-
+.video-container{
+  
+  display: flex;
+  justify-content: center;
+}
+.videocommunity{
+  width:100%;
+  height:100%;
+}
+@media only screen and (max-width:991px){
+  img{
+    width:100%;
+    height:auto;
+  }
+}
 @media screen and (max-width:640px) {
   h1 {
-    font-size: 18vw;
+    font-size: 1.5rem;
+    text-align: center;
   }
   
   .neuton-regular{
@@ -39,10 +53,12 @@ p {
 
   h4 {
     font-size: 3.5vw;
+    text-align: center;
   }
 
   p {
     font-size: 3vw;
+    text-align: center;
   }
 }
 
@@ -50,6 +66,7 @@ p {
   position: relative;
   overflow: hidden;
   filter: grayscale(100%);
+  
 }
 
 .video-container::after {
@@ -96,7 +113,7 @@ p {
 
 @media screen and (max-width:640px) {
   .video-container{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
   }
   
