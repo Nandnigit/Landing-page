@@ -30,10 +30,10 @@ body{
     margin-top: 3%;
 }
 .Homeimg{
-   width:100%;
+   width:60%;
    height:auto;
 }
-@media only screen and(max-width:425px){
+@media only screen and(max-width:768px){
     .home_body{
         width:100%;
     }

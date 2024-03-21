@@ -6,6 +6,7 @@
   //import PhotoSlider from './Components/Community2-section/components/Community2'
   import AnnualRetreatSection from './Components/annual-retreat-section/components/AnnualRetreatSection'
   import ExHeadTestimonialSection from './Components/annual-retreat-section/components/ExHeadTestimonialSection'
+  import App from './Components/task/App'
 
   function Home(){
       return(
@@ -19,12 +20,13 @@
             <h3>Join leaders at marquee internet companies</h3>
             <img src="https://assets-global.website-files.com/63a49822ee2304acc9455a42/65842ad7fd3d64853ccdf1a7_homapge_logos%20(4)-p-1080.png" className="Homeimg"/>
             </div>        
-       
+            
        <Threepillors/>
-       <AnnualRetreatSection/>      
-       <ExHeadTestimonialSection/>
-       <Threeoutcomes/>  
        
+        <Threeoutcomes/>
+        <AnnualRetreatSection/>
+        <ExHeadTestimonialSection/>
+        <App/>
             </>
       )
   }
