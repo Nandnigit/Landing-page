@@ -12,7 +12,7 @@ const PhotoSlider = () => {
             <p>Over 1 million messages were exchanged in 2023 so far.</p>
           </div>
       </div>
-
+      
       <div className='video-container'>
         <video autoPlay loop muted className="video-controller"  width="100%" height="100%">
           <source src="https://dtoz3qm0nr91u.cloudfront.net/community.mp4" type='video/mp4'/>

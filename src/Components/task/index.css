@@ -1,0 +1,259 @@
+body {
+  color: #fff;
+  background-color: #000;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.homepage-text-section {
+  z-index: 200;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(255, 255, 255, 0) 92%, #000), url("https://assets-global.website-files.com/63a49822ee2304acc9455a42/64dd383482b655236da87edb_origin_story_bg2.webp");
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  border-bottom: 1px #e4ebf3;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 0;
+  display: flex;
+  position: relative;
+}
+
+.homepage-text-content {
+  max-width: 1080px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0% auto;
+  padding-bottom: 0;
+  display: flex;
+  position: static;
+  top: 50%;
+}
+
+.homepage-headline {
+  color: #575757;
+  text-align: center;
+  letter-spacing: -3px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Gilroy, sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.homepage-headline.is--white {
+  color: #fff;
+}
+
+.card-details {
+  color: #86868b;
+  margin-bottom: 0;
+  font-family: Gilroy, sans-serif;
+}
+
+.c-card-title {
+  margin-bottom: 0;
+}
+
+.card-subtitle {
+  color: #86868b;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Gilroy, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.card-subtitle.is--left-small {
+  text-align: left;
+  font-size: 14px;
+}
+
+.card-subtitle.is-spaced-out {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.card-subtitle.is--center-bold {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+._w-cards-list {
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: static;
+  top: 1px;
+}
+
+.c-cards-list {
+  transition: all .2s;
+  position: relative;
+}
+
+.card-title-2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Gilroy, sans-serif;
+  font-size: 32px;
+  line-height: 1.5em;
+}
+
+.c-card {
+  width: 100%;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all .25s;
+  position: relative;
+  box-shadow: 0 -5px 40px #000;
+}
+
+.c-card._4 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+}
+
+.c-card._1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+}
+
+.c-card._3 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 260px;
+}
+
+.c-card._2 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 180px;
+}
+
+.c-card-details {
+  margin-bottom: 20px;
+}
+
+._w-card {
+  background-color: #101010;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  padding: 30px;
+  position: relative;
+  box-shadow: 1px 1px 15px rgba(19, 19, 19, .5);
+}
+
+.text-animation-section 
+{
+  position: relative;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-animation-section {
+  position: relative;
+}
+
+ .cards-container {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.c-card {
+  margin-top: 100px;
+  background-color: transparent;
+  transition: margin-top 0.3s ease;
+}
+
+.c-card._2 {
+  margin-top: -30px;
+}
+
+.c-card._3 {
+  margin-top: -30px;
+}
+
+.c-card._4 {
+  margin-top: -50px;
+
+}  
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
