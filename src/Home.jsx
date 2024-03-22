@@ -3,17 +3,16 @@
   import Threepillors from './Components/ThreePillors/Threepillors'
   import Community2 from './Components/Community2-section/components/Community2'
   import Member from './Components/Community2-section/components/Member'
-  import PhotoSlider from './Components/Community2-section/components/Community2'
   import AnnualRetreatSection from './Components/annual-retreat-section/components/AnnualRetreatSection'
   import ExHeadTestimonialSection from './Components/annual-retreat-section/components/ExHeadTestimonialSection'
   import App from './Components/task/App'
-
+import Cred from './Components/Cred/Cred'
+import DataLedpart4 from './Components/DataLed/DataLedpart4'
   function Home(){
       return(
             <>
             <div className='home_body'>
-            <h1>The Entrepreneurship Network</h1>
-            <h1>Membership</h1>
+            <h1 className='first_heading'>The Entrepreneurship Network Membership</h1>
             <p className="first_line">Structured learning, curated community & orbit<br/>changing outcomes – in one membership.</p>
             <div class="line"></div>
             <button className='btn1'>Become a Member</button>
@@ -28,8 +27,8 @@
         <Threeoutcomes/>
         <AnnualRetreatSection/>
         <ExHeadTestimonialSection/>
-            
-
+          <Cred/>  
+        <DataLedpart4/>
             </>
       )
   }

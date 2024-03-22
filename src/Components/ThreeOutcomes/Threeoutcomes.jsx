@@ -29,7 +29,7 @@ function Threeoutcomes() {
               Meet The Founders Of Soundboard On Their $10M–$20M Journeys. <br />
               Receive Early Input/Traction From More Than 2,500 Members.
             </div>
-            <div className="box box4">
+            <div className="box last_box">
               Create and develop a growth organization.<br />
               To increase revenue, find functional gaps in your team, hire or upskill them, and create an OKR structure.
             </div>
@@ -57,7 +57,7 @@ function Threeoutcomes() {
               Create a remarkable inner circle Soundboard with more than 2,500 aspirational entrepreneurs and leaders to
               refine your understanding of the nuances of growing an online business.
             </div>
-            <div className="box box4">
+            <div className="box last_box">
               Get hired on or land a big post.<br />
               Create/Develop Your Personal Brand, Understand The Art Of Winning Leadership Positions, Arrange To Discuss A
               Job/Promotion Offer, And Create Your First 30-90-Day Plan In A New Position.

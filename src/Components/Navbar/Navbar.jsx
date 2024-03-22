@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "../assets/logo.svg";
+import { Link } from "react-router-dom";
+// import logo from "../Navbar/assest";
 import { useState } from "react";
 import "./Navbar.css";
 
@@ -10,45 +11,49 @@ const Navbar = () => {
     setShowMenu(!showMenu);
   };
 
-  // const closeMenuOnMobile = () => {
-  //   if (window.innerWidth <= 991) {
-  //     setShowMenu(false);
-  //   }
-  // };
-
   return (
     <>
       <nav className={`${showMenu ? "show-menu" : ""}`}>
-        <a href="/" id="nav-logo">
-          <img src={logo} alt="logo" height="33" loading="lazy" />
-        </a>
+        <Link to="/" id="nav-logo">
+          {/* <img src={logo} alt="logo" height="33" loading="lazy" /> */}
+        </Link>
         <ul className={`menu-list ${showMenu ? "menu-open" : "menu-close"}`}>
           <li className="nav-link">
-            <a href="/">Learning</a>
+            <Link to="/learning">Learning</Link>
           </li>
           <li className="nav-link">
-            <a href="/">Community</a>
+            <Link to="/community">Community</Link>
           </li>
           <li className="nav-link">
-            <a href="/">Outcomes</a>
+            <Link to="/outcomes">Outcomes</Link>
           </li>
           <li className="nav-link">
-            <a href="/">ELEVATE</a>
+            <Link to="/elevate">ELEVATE</Link>
           </li>
           <li className="nav-link">
-            <a href="/">For Teams</a>
+            <Link to="/for-teams">For Teams</Link>
           </li>
           <li className="nav-link">
-            <a href="/">Limited Experience</a>
+            <Link to="/limited-experience">Limited Experience</Link>
           </li>
           <li className="nav-link">
-            <a href="/">Library</a>
+            <Link to="/library">Library</Link>
           </li>
           <li className="nav-link">
-            <a href="/">CRAFTs</a>
+            <div class="dropdown">
+              <Link to="#"> CRAFTs </Link>
+      <i class="fa fa-caret-down"></i>
+    <div class="dropdown-content">
+      <Link to="/Brandledgrowth">Brand LED Growth</Link>
+      <Link to="/Partnershipledgrowth">Partnership LED Growth</Link>
+      <Link to="/Eventledgrowth">Event LED Growth</Link>
+      <Link to="/Dataledgrowth">Data LED Growth</Link>
+    </div>
+  </div>
+
           </li>
           <li className="nav-link">
-            <a href="/">Login</a>
+            <Link to="/login">Login</Link>
           </li>
         </ul>
         <div className="mobile-menu-container">

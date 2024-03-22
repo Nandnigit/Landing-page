@@ -1,18 +1,20 @@
 
 .home_body{
     background: rgb(2,0,36);
-background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(16,3,40,1) 30%, rgba(0,31,255,1) 100%);
+background: radial-gradient(circle, rgb(47, 39, 185) 0%, rgb(45, 15, 101) 30%, rgb(8, 8, 8) 100%);
     color: white;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     width:100%;
     margin:0%;
-    padding:0%;
+    padding:5%;
     box-sizing: border-box;
 }
-body{
-    background-color: black;
+.first_heading{
+    margin:0%;
+    color: rgba(255, 255, 255, 0);
 }
+
 .btn1{
     font-size: x-large;
     margin:1%;
@@ -38,5 +40,16 @@ body{
 @media only screen and(max-width:768px){
     .home_body{
         width:100%;
+        padding:0%;
     }
+    
 }
+@media screen and (max-width:768px){
+    h1 .first_heading{
+      margin-bottom: 10px;
+      padding: 1rem;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 48px;
+  }
+  }

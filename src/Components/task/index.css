@@ -6,11 +6,10 @@ body {
   line-height: 20px;
 }
 
-h1 {
-  margin-top: 20px;
+ .homepage-headline {
   margin-bottom: 10px;
   padding: 1rem;
-  font-size: 40px;
+  font-size:48px;
   font-weight: 500;
   line-height: 48px;
 }
@@ -143,7 +142,7 @@ h6 {
 }
 
 .c-cards-list {
-  /* transition: all .2s; */
+  transition: all .2s;
   position: relative;
 }
 
@@ -160,7 +159,7 @@ h6 {
   max-width: 650px;
   margin-left: auto;
   margin-right: auto;
-  /* transition: all .25s; */
+  transition: all .25s;
   position: relative;
   box-shadow: 0 -5px 40px #000;
 }
