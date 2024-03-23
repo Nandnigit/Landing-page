@@ -82,7 +82,7 @@ input[type='text'], input[type='email']{
     gap: 2rem;
     padding: 2rem;
 }
-.thirdpart{
+.thirdpart-DataLed{
    width: 80%;
    display: flex;
    justify-content: center;

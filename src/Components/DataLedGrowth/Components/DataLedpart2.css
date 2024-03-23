@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
 }
-.firstpart{
+.firstpart-dataled{
     width: 90%;
     height: 100%;
     padding: 2rem;
@@ -13,12 +13,12 @@
     gap: 2rem;
     grid-template-columns: repeat(3,1fr);
 }
-.box{
+.box-dataled{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    width: 25%;
+    /* width: 25%; */
     height: auto;
     padding: 2rem;
     gap: 1rem;
@@ -36,11 +36,12 @@
     /* gap: 1rem; */
     /* background-color: lightblue; */
 }
-ul{
+.dataled-ul{
     width: 100%;
 }
-li{
-    font-size: 2rem;
+.dataled-ul li{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
 }
 @media (max-width:991px){
     .firstpart{

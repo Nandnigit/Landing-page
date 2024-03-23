@@ -67,7 +67,7 @@ function Threepillors() {
            <img src="https://assets-global.website-files.com/63a49822ee2304acc9455a42/65f310f199de588be3bf89f9_capstone.png" className="itemimg"/>
         </div>
       </div>
-      <div className="last">
+      <div className="home-last">
         <div className="last_first_row" id="lf1">Access 15+ CRAFTs (Learning Programs)</div>
         <div class="last_first_row" id="lf2">Go to Market Strategy</div>
         <div class="last_first_row" id="lf3">Tech Stack for PMs</div>

@@ -4,7 +4,7 @@ import Videopart from './Videopart'
 
 function FirstPart() {
   return (
-    <div className="firstpart">
+    <div className="firstpart-event">
       <img src="https://assets-global.website-files.com/63a49822ee2304acc9455a42/64dcfe88badaf24e950f4ca2_ELG_Web%20(1).jpg" className="img" alt="image1" />
      <div className="firstpart-text">
       <h1 className="img1">Event LED Growth</h1>
@@ -44,7 +44,7 @@ function ThirdPart() {
   return (
     <div className="thirdpart-section">
          <div className="thirdpart">
-      <div className="thirdpart1">
+      <div className="thirdpart1-event">
         <h2>Nishchal Dua</h2>
         <h3>PROGRAM DIRECTOR AT GROWTHX</h3>
         <p>Designed & executed 100+ global events at Airmeet as Director of Marketing. Built a revenue pipeline of $2.5 million using just events as a core lever.</p>

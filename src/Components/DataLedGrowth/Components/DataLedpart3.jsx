@@ -6,7 +6,7 @@ function DataLedpart3(){
         <>
         <div className="part3-container">
         <h1>Scheduled Dates</h1>
-        <div className="thirdpart">
+        <div className="thirdpart-DataLed">
             <div className="thirdpart1">Day 1: 23rd March, 11AM </div>
            <div className="icon"><i class="fa-solid fa-arrow-right"></i></div> 
             <div className="thirdpart1">Day 2: 24th March, 11AM </div>

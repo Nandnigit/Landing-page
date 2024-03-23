@@ -4,7 +4,7 @@ import './Video.css';
 function Video(){
   return(
     <div className="video-player">
-        <div className="video-text">
+        <div className="video-text-event">
           <h1>
             THIS CRAFT is a Part of the GROWTH<span>X</span> Experience
           </h1>

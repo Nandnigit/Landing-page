@@ -51,10 +51,10 @@
 .image{
     width: 50%;
 }
-img{
+/* img{
     height:100%;
     width: 100%;
-}
+} */
 .threeout_box{
     display: grid;
     grid-template-columns: repeat(2,1fr);

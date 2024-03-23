@@ -1,24 +1,27 @@
-.learning-grid{
-    height: 50vh;
+.learning-grid-data{
+    /* width: 100%; */
+    /* height: 50vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     padding: 2rem;
+    /* color: white; */
 }
-.row1{
+.row1-data{
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
 }
-.row1 h2{
-    font-size: 2rem;
+.row1-data h2{
+    /* width: 90%; */
+    font-size: 1.2rem;
     font-weight: 300;
 }
-.image{
+.image-data{
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(216, 211, 211);
@@ -28,10 +31,10 @@
         height: auto;
         padding: 1rem;
     }
-    .row1{
+    .row1-data{
         width: 100%;
     }
-    .row1 h2{
+    .row1-data h2{
         font-size: 1.5rem;
         font-weight: 300;
     }

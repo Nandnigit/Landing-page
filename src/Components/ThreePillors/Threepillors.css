@@ -82,7 +82,7 @@
    grid-column-end: 8;
 }
 
-.last {
+.home-last {
     display: grid;
     grid-template-columns: 500px 200px 200px 200px 400px;
 }

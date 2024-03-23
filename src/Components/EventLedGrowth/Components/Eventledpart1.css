@@ -5,7 +5,7 @@ body{
     box-sizing: border-box;
     color: white;
 }
-.firstpart{
+.firstpart-event{
     background: linear-gradient(to top, #000000, #fffefe 50%, #f0ecec 75%);
     height:100vh;
     width: 100vw;
@@ -24,6 +24,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
     
 }
 .firstpart p{
@@ -100,7 +101,7 @@ body{
     place-items: center;
     grid-template-columns: repeat(2,1fr);
 }
-.thirdpart1{
+.thirdpart1-event{
     display: flex;
     flex-direction: column;
     gap: 2rem;
