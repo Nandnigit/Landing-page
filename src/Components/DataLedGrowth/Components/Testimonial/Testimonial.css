@@ -1,0 +1,86 @@
+.hero-section{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://assets-global.website-files.com/63a49822ee2304acc9455a42/65ed332970e8f5d1837d3168_tanmay-hero-image.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-div{
+    /* padding: 2rem; */
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: start;
+}
+.div-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.div-header p{
+    font-size: 1.5rem;
+    color: #929292;
+    font-weight: 700;
+}
+.div-header h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.div-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.div-footer p{
+    width: 60%;
+    font-size: 1rem;
+    color: #ddd7d7;
+    font-weight: 300;
+}
+.div-footer h2{
+    width: 60%;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.logos{
+    width: 40%;
+    padding: 0;
+}
+.logos img{
+    width: 100%;
+}
+@media (max-width:991px){
+    .hero-section{
+        background-image: url("https://assets-global.website-files.com/63a49822ee2304acc9455a42/65ec1b9c5dcab7aae21039ef_tanmay-hero-image-phone.png");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inner-div{
+        height: 90%;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .div-header{
+        gap: 0rem;
+    }
+    .div-footer{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .div-footer p,h2{
+        text-align: center;
+        width: 100%;
+    }
+}

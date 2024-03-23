@@ -1,0 +1,59 @@
+.Dataledpart2-container{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.firstpart{
+    width: 90%;
+    height: 100%;
+    padding: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 25%;
+    height: auto;
+    padding: 2rem;
+    gap: 1rem;
+    border: 1px solid #525252;
+}
+.imagerow2{
+    width: 100%;
+}
+.box-svg{
+    height: 100px;
+    width: 100%;
+}
+.span-box {
+    grid-row: span 2;
+    /* gap: 1rem; */
+    /* background-color: lightblue; */
+}
+ul{
+    width: 100%;
+}
+li{
+    font-size: 2rem;
+}
+@media (max-width:991px){
+    .firstpart{
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:475px){
+    .firstpart{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+    }
+    li{
+        font-size: 1rem;
+    }
+}

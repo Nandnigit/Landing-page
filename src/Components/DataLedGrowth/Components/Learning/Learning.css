@@ -1,0 +1,38 @@
+.learning-grid{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.row1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.row1 h2{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.image{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(216, 211, 211);
+}
+@media (max-width:991px){
+    .learning-grid{
+        height: auto;
+        padding: 1rem;
+    }
+    .row1{
+        width: 100%;
+    }
+    .row1 h2{
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+}

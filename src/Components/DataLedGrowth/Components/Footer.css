@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+    padding-bottom: 1.5rem;
+    }
+    .row1{
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid white;
+    }
+    .footer-title{
+      flex: 1;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      gap: .5rem;
+      font-size: 1.4rem;
+      padding-bottom: 10px;
+    }
+    .footer-title p{
+      font-size: .8rem;
+      color: #fff;
+    }
+    .footer-menus{
+      flex: 3;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: .5rem;
+    }
+    .footer-icons{
+      flex: 1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      font-size: 2rem;
+    }
+    .row2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+    }
+    footer a{
+      text-decoration: none;
+      color: #ffffff; 
+      font-size: 1rem;
+     padding: 1rem;
+    }
+    footer span{
+      color: #001aff;
+      font-size: 3rem;
+    }
+    footer a:hover{
+      color: rgb(0, 17, 255);
+    }
+  @media (max-width:991px){
+      .row1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+        gap: 2rem;
+      }
+      .footer-title{
+        justify-content: center;
+        align-items: center;
+      }
+  }
+  @media (max-width:650px){
+    footer{
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    }
+    .row2{
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .row1{
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .footer-menus{
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+  }

@@ -8,16 +8,15 @@ import Community2 from './Components/Community2-section/components/Community2.js
 import Home from './Home'
 import AnnualRetreatSection from './Components/annual-retreat-section/components/AnnualRetreatSection.jsx'
 import Threeoutcomes from './Components/ThreeOutcomes/Threeoutcomes.jsx'
-
-
-
-
+import DataLed from './Components/DataLedGrowth/DataLed.jsx'
+import Partnership from './Components/PartnershipLEDGrowth/PartnershipLed.jsx'
+import EventLed from './Components/EventLedGrowth/EventLed.jsx'
 const router = createBrowserRouter([
   {
     path:'/',
     element: <Layout/>,
     children : [
-      { path: "",
+      { path: "/",
         element: <Home/>
       },
       {
@@ -35,7 +34,21 @@ const router = createBrowserRouter([
       {
         path: "Outcomes",
         element: <Threeoutcomes/>
-      }
+      },
+      {
+        path: "DataLedGrowth",
+        element: <DataLed />
+      },
+      {
+        path: "PartnershipLedGrowth",
+        element: <Partnership />
+      },
+      {
+        path: "EventLedGrowth",
+        element: <EventLed />
+      },
+      
+     
     ]
   }
 ])

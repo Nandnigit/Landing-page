@@ -1,0 +1,36 @@
+.craft-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.section-headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.section-headline h2{
+    font-size: 2rem;
+    font-weight: normal;
+}
+ p{
+    font-size: 1rem;
+    font-weight: normal;
+    color: #929292;
+}
+.section-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

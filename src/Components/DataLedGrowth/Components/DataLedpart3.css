@@ -1,0 +1,138 @@
+/* *{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+.thirdpart1{
+    border:2px solid white;
+    border-radius: 10px;
+    padding:1%;
+    
+}
+.thirdpart{
+    display: flex;
+    padding: 1%;
+    text-align: center;
+    margin-left:26%;
+}
+.icon{
+    padding:1%;
+    width:8%;
+}
+.thirdpart2{
+    display: flex;
+    flex-direction: row;
+    margin-left:12%;
+}
+.image2{
+    width:100%;
+    height:auto;
+}
+form{
+    margin-top:50%;
+    width:90%;
+    height:auto;
+    padding:3%;
+    
+}
+input[type='text'], input[type='email']{
+    
+    padding:8%;
+    margin:6%;
+    border-radius: 10px;
+    background-color: rgba(91, 89, 89, 0.272);
+}
+.btn3{
+    padding:8%;
+    margin:6%;
+    border-radius: 10px;
+    background-color: rgb(251, 249, 249);
+    
+}
+@media only screen and (max-width:768px){
+    .thirdpart2,.thirdpart{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+    form{
+        margin-top: 10%;
+    }
+    form input{
+        width: 90%;
+        font-size: 1.5rem;
+    }
+    form button{
+        width: 90%;
+        font-size: 1.5rem;
+    }
+} */
+
+.part3-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.thirdpart{
+   width: 80%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+}
+.thirdpart1{
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.thirdpart2{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1rem; */
+}
+input{
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    background-color: #929292;
+    color: #fff;
+    border-radius: 12px;
+}
+button{
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    color: #fff;
+    border-radius: 12px;
+}
+
+@media (max-width:991px){
+    .thirdpart{
+        flex-direction: column;
+        width: 100%;
+    }
+    .thirdpart1{
+        width: 90%;
+    }
+    .thirdpart2{
+        width: 90%;
+        flex-direction: column;
+    }
+}
