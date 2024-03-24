@@ -1,0 +1,262 @@
+img {
+  max-width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pie-chart-section {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.u-padding {
+  width: 100%;
+  max-width: 1200px;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  display: block;
+  position: static;
+}
+
+.pie-chart-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.timeline-2-image {
+  margin-bottom: 40px;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.timeline-2-image.appear {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.get-talent-grid {
+  width: 100%;
+  grid-column-gap: 0px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  grid-row-gap: 16px;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.hline-left {
+  justify-self: end;
+}
+
+.get-talent-headline {
+  color: white;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  flex-wrap: nowrap;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  line-height: 30px;
+}
+
+.hline-right {
+  justify-self: start;
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.hline-right.appear {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.outline-headline {
+  font-size: 120px;
+  line-height: 160px;
+  color: rgba(0, 0, 0, 0);
+  text-align: center;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Neuton", serif;
+  font-weight: 600;
+}
+
+.general-subtext {
+  color: #8b8b8b;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.pie-chart-container {
+  width: 100%;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pie-chart-grid {
+  grid-column-gap: 32px;
+  grid-row-gap: 24px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  align-items: center;
+  display: grid;
+  position: relative;
+}
+
+.pie-chart-grid::before {
+  content: " ";
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.pie-chart-grid::after {
+  content: " ";
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.pie-chart-tabs {
+  color: #01b4ff;
+  position: relative;
+}
+
+.tab-data {
+  border-left: 4px solid #f2f4f7;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 1.5rem 0 1.5rem 2rem;
+  display: block;
+  text-align: left;
+  max-width: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+}
+
+.tab-data.current {
+  opacity: 1;
+  color: #01b4ff;
+  -webkit-text-stroke-color: #0c2530;
+  background-color: rgba(0, 0, 0, 0);
+  border-left-width: 4px;
+  border-left-color: #01b4ff;
+}
+
+.tab-headline {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.white-font {
+  color: #fff;
+  position: static;
+}
+
+.tab-subtext {
+  color: #8b8b8b;
+  text-align: left;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.pie-charts {
+  grid-area: 1 / 1 / 2 / 2;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.pie-chart {
+  opacity: 0;
+  display: none;
+  position: relative;
+}
+
+.pie-chart.current {
+  opacity: 1;
+  transition: opacity 400ms ease-in 0s;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .hline-right,
+  .hline-left {
+    display: none;
+  }
+
+  .get-talent-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .outline-headline {
+    text-align: center;
+    font-size: 108px;
+    line-height: 144px;
+  }
+}
+
+@media screen and (max-width: 791px) {
+  .outline-headline {
+    font-size: 80px;
+    line-height: 96px;
+  }
+
+
+    .pie-chart-grid {
+        grid-row-gap: 3rem;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 479px) {
+  .u-padding {
+    max-width: none;
+    border-bottom: 0.5px rgba(255, 255, 255, 0.6);
+    padding-left: 20px;
+    padding-right: 20px;
+    transition-property: none;
+  }
+
+  
+
+  .get-talent-headline {
+    justify-self: start;
+  }
+
+  .outline-headline {
+    width: 100%;
+    text-align: left;
+    -webkit-text-stroke-width: 1px;
+    font-size: 40px;
+    line-height: 56px;
+  }
+
+  .general-subtext {
+    text-align: left;
+  }
+}

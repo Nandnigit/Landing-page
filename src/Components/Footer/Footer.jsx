@@ -5,7 +5,7 @@ function Footer(){
         <footer>
         <div className="row1">
         <div className="footer-title">
-        <h2 class="footer_first">Growth <span>X</span></h2>
+        {/* <h2 class="footer_first">Growth <span>X</span></h2> */}
         <p>GrowthX Education Labs Private Limited</p>
         </div>
         <div className="footer-menus">

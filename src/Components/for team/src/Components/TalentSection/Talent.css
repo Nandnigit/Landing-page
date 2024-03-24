@@ -1,0 +1,90 @@
+.Talent-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+.Talent-Content{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+.talent-para p{
+    font-size: 1.5rem;
+}
+.Talent-Heading h2{
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    font-size: 4rem;
+}
+.talent-text p{
+  font-size: 1rem;
+  color: #8b8b8b;
+  text-align: center;
+}
+
+.talent-video-section{
+    width: 75%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+}
+.talent-video-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+    padding: 1rem;
+}
+.talent-video-text h3{
+    width: 90%;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.talent-video-text p{
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #8b8b8b;
+}
+.talent-video{
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+}
+.talent-video video{
+    height: 100%;
+    width: 100%;
+}
+@media (max-width:991px){
+    .Talent-Heading h2{
+        font-size: 5rem;
+    }
+    .talent-video-section{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media (max-width:450px){
+    .Talent-Content{
+        padding: 0;
+    }
+    .Talent-Heading h2{
+        font-size: 3rem;
+        text-align: left;
+    }
+}

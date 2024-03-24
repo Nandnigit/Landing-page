@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout from './Layout.jsx'
 import Threepillors from './Components/ThreePillors/Threepillors.jsx'
@@ -14,6 +13,7 @@ import EventLed from './Components/EventLedGrowth/EventLed.jsx'
 import Newsletter from './Components/NewsLetter-master/src/Newsletter.jsx'
 import Framework from './Components/framwork-task (2)/framwork-task/framwork/src/Framework.jsx'
 import Elevate from './Components/growthx-elevate-main/growthx-elevate-main/src/Elevate.jsx'
+import Forteam from './Components/for team/src/Forteam.jsx'
 const router = createBrowserRouter([
   {
     path:'/',
@@ -69,6 +69,10 @@ const router = createBrowserRouter([
       {
         path: "Elevate",
         element: <Elevate/>
+      },
+      {
+        path: "for-teams",
+        element: <Forteam/>
       }
      
     ]
