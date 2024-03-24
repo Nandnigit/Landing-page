@@ -12,7 +12,9 @@ background: radial-gradient(circle, rgb(47, 39, 185) 0%, rgb(45, 15, 101) 30%, r
 }
 .first_heading{
     margin:0%;
-    color: rgba(255, 255, 255, 0);
+    font-size:40px;
+    padding: 1%;
+    color: rgb(245, 241, 241);
 }
 
 .btn1{
@@ -24,6 +26,7 @@ background: radial-gradient(circle, rgb(47, 39, 185) 0%, rgb(45, 15, 101) 30%, r
 }
 .first_line{
     font-size: x-large;
+    color: rgb(178, 170, 170);
 }
 .line{
     height:1px;
@@ -45,7 +48,7 @@ background: radial-gradient(circle, rgb(47, 39, 185) 0%, rgb(45, 15, 101) 30%, r
     
 }
 @media screen and (max-width:768px){
-    h1 .first_heading{
+    .first_heading{
       margin-bottom: 10px;
       padding: 1rem;
       font-size: 30px;

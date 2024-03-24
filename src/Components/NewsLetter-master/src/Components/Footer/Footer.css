@@ -1,0 +1,26 @@
+.footer_news-newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #aca9a961;
+}
+.footer-menus-newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.newsletter-btns{
+    display: flex;
+    gap: 1rem;
+}
+.newsletter_btn1{
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: azure;
+    background-color: #abaaaa8f;
+    border-radius: 8px;
+}

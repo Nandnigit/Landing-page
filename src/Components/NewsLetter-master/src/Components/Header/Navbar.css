@@ -1,0 +1,117 @@
+.navbarclass-newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 5%;
+    /* height: 50px; */
+}
+.navbar-img1-newsletter{
+    height: 50px; 
+}
+.navbar-img2-newsletter{
+    height: 50px;
+}
+.navbarclass-newsletter img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.navbar-btnclass-newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.navbarbtn-newsletter{
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+.btn1-newsletter{
+    padding: 0.56rem;
+    border-radius: 50%;
+    border: none;
+}
+.links-newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.navbar_secondpart-newsletter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.second-part-container-newsletter{
+    width: 90%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    /* border: 1px solid black; */
+}
+.navbar_image-newsletter{
+    flex: 1;
+}
+.navbar_image-newsletter img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.navbar_para-newsletter{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+}
+.navbar_para-newsletter p{
+    text-align: left;
+}
+@media (max-width:768px){
+    .navbarclass-newsletter{
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .navbar-img2-newsletter{
+        width: 40%;
+    }
+    .navbarbtn-newsletter{
+        place-self: end;
+        font-size: 10px;
+        padding: 10px;
+    }
+    .btn1-newsletter{
+        display: none;
+    }
+    .second-part-container-newsletter{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .links-newsletter li{
+        font-size: 1rem;
+    }
+}
+@media(max-width:450px){
+    .links-newsletter{
+        flex-direction: column;
+    }
+    .navbar-img2-newsletter{
+       width: 60%;
+    }
+    .navbarbtn-newsletter{
+        display: none;
+    }
+
+}

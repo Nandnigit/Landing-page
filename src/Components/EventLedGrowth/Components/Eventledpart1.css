@@ -27,10 +27,10 @@ body{
     gap: 1rem;
     
 }
-.firstpart p{
+.firstpart-event p{
     color: rgb(88, 3, 3);
 }
-.firstpart button{
+.firstpart-event button{
    padding: 1rem 2rem;
   font-size: 1rem;
   background-color: rgb(255, 255, 255);
@@ -141,7 +141,7 @@ body{
     height:auto;
 }
 @media only screen and (max-width:991px){
-    .firstpart{
+    .firstpart-event{
         width:100vw;
         height:auto;
         padding:10px;
@@ -173,20 +173,20 @@ body{
         align-items: center;
         flex-direction: column;
     }
-    .thirdpart1{
+    .thirdpart1-event{
         justify-content: center;
         align-items: center;
         width: 100%;
     }
-    .thirdpart1 h2{
+    .thirdpart1-event h2{
         width: 100%;
         text-align: center;
     }
-    .thirdpart1 h3{
+    .thirdpart1-event h3{
         width: 100%;
         text-align: center;
     }
-    .thirdpart1 p{
+    .thirdpart1-event p{
         width: 100%;
         text-align: center;
     }
@@ -236,13 +236,13 @@ body{
         width: 100%;
         font-size: .8rem;
     }
-    .thirdpart1 h2{
+    .thirdpart1-event h2{
         font-size: 1.5rem;
     }
-    .thirdpart1 h3{
+    .thirdpart1-event h3{
         font-size: 1.2rem;
     }
-    .thirdpart1 p{
+    .thirdpart1-event p{
         font-size: .8rem;
     }
      .thirdpart-img{

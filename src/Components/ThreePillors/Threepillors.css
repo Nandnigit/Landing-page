@@ -6,7 +6,7 @@
 .second {
     text-align: center;
     font-size: 60px;
-    padding: 2rem;
+    padding: 1rem;
     -webkit-text-stroke-width: 2px;
     color: rgba(255, 255, 255, 0.189);
     -webkit-text-stroke-color: white;
@@ -35,10 +35,11 @@
 .boxes{
     display:grid;
     grid-template-columns: 100px 100px 100px 100px 100px 300px 300px 300px;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 .heading{
     text-align: center;
+    padding: 0.5rem;
 }
 #secondrow{
     grid-row-start: 2;
@@ -67,7 +68,7 @@
 .next{
     display:grid;
     grid-template-columns: 100px 100px 100px 100px 100px 300px 300px 300px;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 #next1{
     grid-row-start: 1;
@@ -111,9 +112,10 @@
 }
 #lf2,#lf3,#lf4,#lf5,#lt1,#lt2,#lt3,#lt4,#lt5{
     background-color: rgb(54, 53, 53);
+    border: 2px solid grey;
 }
 
-.btn {
+.btn-threepillor {
     border: 2px solid grey;
     width: 100px;
     text-align: center;
@@ -135,8 +137,8 @@
     .item,
     .boxes,
     .next,
-    .last,
-    .btn,
+    .home-last,
+    .btn-threepillor,
     #img1 {
         margin: 0 auto;
         display: flex;

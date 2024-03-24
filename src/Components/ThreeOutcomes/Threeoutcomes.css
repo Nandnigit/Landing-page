@@ -8,8 +8,8 @@
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(254, 254, 254);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size:70px;
-    padding:3px;
+    font-size:90px;
+    padding:1rem;
 }
 .threeout1{
     color:rgb(255, 255, 255,0);
@@ -17,17 +17,17 @@
     -webkit-text-stroke-color: rgb(255, 255, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 80px;
-    padding:5px;
+    padding:1rem;
     margin:5px;
 }
-.heading{
+.heading-threeout{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 }
-.heading p{
+.heading-threeout p{
     font-size: 1.5rem;
     color: #929292;
 }
@@ -47,24 +47,22 @@
     gap: 1rem;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
-.image{
-    width: 50%;
-}
-/* img{
-    height:100%;
+.threeout-image{
     width: 100%;
-} */
+}
 .threeout_box{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
-.box{
-    border: 1px solid white;
-    border-radius: 5px;
+.box-threeout{
+    border: 1px solid rgb(19, 17, 17);
+    background-color: #131313;
+    border-radius: 10px;
     font-size: 1rem;
     padding: 2rem;
 }
@@ -78,7 +76,7 @@
     .threeout1{
         font-size: 50px;
     }
-    .image{
+    .threeout-image{
         height: 90%;
         width: 50%;
     }

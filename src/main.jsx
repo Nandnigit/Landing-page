@@ -9,8 +9,11 @@ import Home from './Home'
 import AnnualRetreatSection from './Components/annual-retreat-section/components/AnnualRetreatSection.jsx'
 import Threeoutcomes from './Components/ThreeOutcomes/Threeoutcomes.jsx'
 import DataLed from './Components/DataLedGrowth/DataLed.jsx'
-import Partnership from './Components/PartnershipLEDGrowth/PartnershipLed.jsx'
+import Partnership from './Components/PartnershipLEDGrowth/PartnershipLEDGrowth/PartnershipLed.jsx'
 import EventLed from './Components/EventLedGrowth/EventLed.jsx'
+import Newsletter from './Components/NewsLetter-master/src/Newsletter.jsx'
+import Framework from './Components/framwork-task (2)/framwork-task/framwork/src/Framework.jsx'
+import Elevate from './Components/growthx-elevate-main/growthx-elevate-main/src/Elevate.jsx'
 const router = createBrowserRouter([
   {
     path:'/',
@@ -47,7 +50,26 @@ const router = createBrowserRouter([
         path: "EventLedGrowth",
         element: <EventLed />
       },
-      
+      {
+        path: "BrandLedGrowth",
+        element: <EventLed />
+      },
+      {
+        path: "Newsletter",
+        element: <Newsletter/>
+      },
+      {
+        path: "Framework",
+        element: <Framework/>
+      },
+      {
+        path: "Youtube",
+        element: <Home/>
+      },
+      {
+        path: "Elevate",
+        element: <Elevate/>
+      }
      
     ]
   }

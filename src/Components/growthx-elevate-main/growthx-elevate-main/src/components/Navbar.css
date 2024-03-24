@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-#navbar-start {
+nav {
   position: fixed;
   width: 100vw;
   height: 72px;
@@ -19,7 +19,7 @@
   display: flex;
 }
 
-.nav-link-navbar a {
+.nav-link a {
   position: relative;
   padding: 20px;
   text-decoration: none;
@@ -29,7 +29,7 @@
   transition: all 0.5s;
 }
 
-.nav-link-navbar a::after {
+.nav-link a::after {
   content: "";
   position: absolute;
   background-color: #3096ff;
@@ -41,7 +41,7 @@
   transition: height 0.2s ease-in-out;
 }
 
-.nav-link-navbar a:hover::after {
+.nav-link a:hover::after {
   height: 2px;
   width: 100%;
   transition: height 0.2s ease-in-out;
@@ -72,33 +72,8 @@
   display: none;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #080808;
-  min-width: 160px;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: rgb(255, 255, 255);
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #4a4949;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  border-radius: 10px;
-}
 @media only screen and (max-width: 991px) {
-  #navbar-start {
+  nav {
     position: fixed;
     padding: 20px;
     display: flex;

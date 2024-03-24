@@ -1,0 +1,226 @@
+.grid-section-newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid2-newsletter{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    padding: 2rem;
+}
+.right-grid-newsletter{
+    height: 100%;
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.185);
+
+}   
+.navbar-newsletter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menus-newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.menus-newsletter h2{
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 10px;
+}
+.menus-newsletter h2:hover{
+    cursor: pointer;
+    background-color: rgba(211, 211, 211, 0.372);
+    border-radius: 25px;
+    scale: 1.1;
+}
+.search-icon-newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.372);
+    border-radius: 25px;
+}
+.grid-body-newsletter{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: .5rem;
+}
+.grid-body-newsletter a{
+    text-decoration: none;
+    color: #929292;
+
+}
+.card-newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.image-newsletter{
+    /* flex: 2; */
+    height: 200px;
+    width: 100%;
+}
+.image-newsletter img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.card-text-newsletter{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: .5rem;
+}
+.card-text-newsletter h2{
+    font-weight: 500;
+    color: black;
+}
+.card-text-newsletter p,a{
+    color: #929292;
+}
+.title-newsletter{
+    display: flex;
+    text-align: left;
+    gap: 10px;
+    justify-content: start;
+    align-items: start;
+} 
+.title-newsletter a:hover{
+    color: black;
+}
+.left-grid-newsletter{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    padding: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.185);
+
+}
+.letter-newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1.2rem;
+}
+.top-newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1.2rem;
+}
+.newsletter-input-box{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.newsletter-input-box input{
+    padding: .5rem;
+    font-size: 1rem;
+    border: none;
+}
+.newsletter-input-box button{
+    padding: .5rem;
+    font-size: 1rem;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.reccomendations-section-newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1.5rem;
+}
+.section-title-newsletter{
+    border-bottom: 1px solid rgb(231, 212, 212);
+    width: 100%;
+}
+.reccomendations-section-newsletter h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.section-box-newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.image1-newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scetion-box-text-newsletter h3{
+    font-size: 1rem;
+}
+.scetion-box-text-newsletter a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width:991px){
+    .grid2-newsletter{
+        width: 100%;
+        
+        flex-direction: column;
+    }
+}
+@media (max-width:650px){
+    .grid2-newsletter{
+        padding: 0;
+    }
+    .grid-body-newsletter{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .letter-newsletter{
+        padding: 1rem;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-grid-newsletter{
+        justify-content: center;
+        align-items: center;
+    }
+    .newsletter-input-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .newsletter-input-box input{
+        font-size: 1rem;
+        border: none;
+    }
+}
+
+

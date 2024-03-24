@@ -10,11 +10,8 @@
   -webkit-text-stroke-color: #fff;
   font-size: 80px;
   line-height: 0.85em;
-  padding-bottom: 1%;
+  padding: 1rem;
 }
-
-
-
 h4 {
   letter-spacing: -0.5px;
   font-size: 20px;

@@ -13,33 +13,43 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className={`${showMenu ? "show-menu" : ""}`}>
+      <nav className={`${showMenu ? "show-menu" : ""}`} id="navbar-start">
         <Link to="/" id="nav-logo">
           {/* <img src={logo} alt="logo" height="33" loading="lazy" /> */}
         </Link>
         <ul className={`menu-list ${showMenu ? "menu-open" : "menu-close"}`}>
-          <li className="nav-link">
+          <li className="nav-link-navbar">
             <Link to="/learning">Learning</Link>
           </li>
-          <li className="nav-link">
+          <li className="nav-link-navbar">
             <Link to="/community">Community</Link>
           </li>
-          <li className="nav-link">
+          <li className="nav-link-navbar">
             <Link to="/outcomes">Outcomes</Link>
           </li>
-          <li className="nav-link">
+          <li className="nav-link-navbar">
             <Link to="/elevate">ELEVATE</Link>
           </li>
-          <li className="nav-link">
+          <li className="nav-link-navbar">
             <Link to="/for-teams">For Teams</Link>
           </li>
-          <li className="nav-link">
+          <li className="nav-link-navbar">
             <Link to="/limited-experience">Limited Experience</Link>
           </li>
-          <li className="nav-link">
-            <Link to="/library">Library</Link>
+          <li className="nav-link-navbar">
+            {/* <Link to="/library">Library</Link> */}
+            <div class="dropdown">
+              <Link to="#"> Library </Link>
+      <i class="fa fa-caret-down"></i>
+    <div class="dropdown-content">
+      <Link to="/Newsletter">Newsletter</Link>
+      <Link to="/Template">Template</Link>
+      <Link to="/Framework">Framework</Link>
+      <Link to="/Youtube">Youtube</Link>
+    </div>
+  </div>
           </li>
-          <li className="nav-link">
+          <li className="nav-link-navbar">
             <div class="dropdown">
               <Link to="#"> CRAFTs </Link>
       <i class="fa fa-caret-down"></i>
@@ -52,7 +62,7 @@ const Navbar = () => {
   </div>
 
           </li>
-          <li className="nav-link">
+          <li className="nav-link-navbar">
             <Link to="/login">Login</Link>
           </li>
         </ul>

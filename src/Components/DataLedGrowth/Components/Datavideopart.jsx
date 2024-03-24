@@ -3,7 +3,7 @@ import './Datavideopart.css'
 function Datavideopart(){
     return(
             <>
-            <div className="last">
+            <div className="home-last">
           <div className="row11">
           <div className="last_first_row" id="lf1">Access 15+ CRAFTs (Learning Programs)</div>
         <div className="last_first_row" id="lf2">Go to Market Strategy</div>
@@ -14,7 +14,7 @@ function Datavideopart(){
         
         <div className="row2">
         <div className='last_second_row' ><img src= "https://assets-global.website-files.com/63a49822ee2304acc9455a42/6576b869ee103575f79617cd_rajnish%20(2).png"/></div>
-        <div className='last_second_row' ><img src= "https://assets-global.website-files.com/63a49822ee2304acc9455a42/6576b869ee103575f79617cd_rajnish%20(2).png"/></div>
+        
         </div>
 
         <div className="row3">
