@@ -14,6 +14,10 @@
   z-index: 12;
 }
 
+#navbar-start.remove-nav{
+  display: none;
+}
+
 .menu-list {
   list-style-type: none;
   display: flex;

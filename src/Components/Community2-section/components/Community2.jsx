@@ -6,7 +6,7 @@ const PhotoSlider = () => {
     <div className='d-flex flex-column gap-5'>
       <div className='d-flex flex-column align-items-center mb-4'>
           {/* <img src={logo} alt='community2' width={10} className=''/> */}
-          <div className="threeout">2</div>
+          <div className="threeout" style={{fontFamily:'neuton', fontWeight:'800'}}>2</div>
           <br></br>
           <div className='d-flex flex-column align-items-center justify-center gap-4'>
             <h1 className='neuton-regular  '>Community</h1>

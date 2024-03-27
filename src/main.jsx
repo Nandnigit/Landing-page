@@ -8,13 +8,22 @@ import Home from './Home'
 import AnnualRetreatSection from './Components/annual-retreat-section/components/AnnualRetreatSection.jsx'
 import Threeoutcomes from './Components/ThreeOutcomes/Threeoutcomes.jsx'
 import DataLed from './Components/DataLedGrowth/DataLed.jsx'
-import Partnership from './Components/PartnershipLEDGrowth/PartnershipLEDGrowth/PartnershipLed.jsx'
+// import Partnership from './Components/PartnershipLEDGrowth/PartnershipLEDGrowth/PartnershipLed.jsx'   Partner ship fileis not there
 import EventLed from './Components/EventLedGrowth/EventLed.jsx'
 import Newsletter from './Components/NewsLetter-master/src/Newsletter.jsx'
 import Framework from './Components/framwork-task (2)/framwork-task/framwork/src/Framework.jsx'
 import Elevate from './Components/growthx-elevate-main/growthx-elevate-main/src/Elevate.jsx'
 import Forteam from './Components/for team/src/Forteam.jsx'
-import Templatestask from './Components/temp/src/Templatestask.jsx'
+// import Templatestask from './Components/temp/src/Templatestask.jsx'     file is not there
+
+import PrivateRoute from './Components/Auth/PrivateRoute.jsx'
+import Login from './Components/login/login.jsx'
+import DashBoard from './Components/dashboard/DashBoard';
+import Register from './Components/register/Register.jsx'
+import OpenRoute from './Components/Auth/OpenRoute.jsx'
+import Member from './Components/Community2-section/components/Member.jsx'
+import PhotoSlider from './Components/Community2-section/components/Photoslider.jsx'
+
 const router = createBrowserRouter([
   {
     path:'/',
@@ -29,7 +38,7 @@ const router = createBrowserRouter([
       },
       {
         path: "Community",
-        element: <Community2/>
+        element: <><Member /><Community2/><PhotoSlider /></>
       },
       {
         path: "Annual Retreat Section",
@@ -43,10 +52,10 @@ const router = createBrowserRouter([
         path: "DataLedGrowth",
         element: <DataLed />
       },
-      {
-        path: "PartnershipLedGrowth",
-        element: <Partnership />
-      },
+      // {
+      //   path: "PartnershipLedGrowth",
+      //   element: <Partnership />
+      // },
       {
         path: "EventLedGrowth",
         element: <EventLed />
@@ -75,9 +84,21 @@ const router = createBrowserRouter([
         path: "for-teams",
         element: <Forteam/>
       },
+      // {
+      //   path: "Template",
+      //   element: <Templatestask/>
+      // },
       {
-        path: "Template",
-        element: <Templatestask/>
+        path:'register',
+        element: <OpenRoute><Register /></OpenRoute>
+      },
+      {
+        path:'login',
+        element: <OpenRoute><Login /></OpenRoute> 
+      },
+      {
+        path:'dashboard',
+        element: <PrivateRoute><DashBoard /></PrivateRoute>
       }
      
     ]
