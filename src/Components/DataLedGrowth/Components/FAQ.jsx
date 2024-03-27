@@ -30,7 +30,6 @@ const FAQ = () => {
     </div>
   );
 };
-
 const faqData = [
   {
     question: "What is CRAFT at GrowthX?",
