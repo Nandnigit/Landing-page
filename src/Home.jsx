@@ -8,6 +8,7 @@
   import App from './Components/task/App'
 import Cred from './Components/Cred/Cred'
 import DataLedpart4 from './Components/DataLed/DataLedpart4'
+// import FAQ_Home from './Components/src/FAQ_Home'
   function Home(){
       return(
             <>
@@ -29,8 +30,8 @@ import DataLedpart4 from './Components/DataLed/DataLedpart4'
         <ExHeadTestimonialSection/>
           <Cred/>  
         <DataLedpart4/>
+        {/* <FAQ_Home/> */}
             </>
       )
   }
   export default Home
-  //<Community2/><PhotoSlider/><Member/>
