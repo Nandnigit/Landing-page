@@ -14,6 +14,7 @@ import Newsletter from './Components/NewsLetter-master/src/Newsletter.jsx'
 import Framework from './Components/framwork-task (2)/framwork-task/framwork/src/Framework.jsx'
 import Elevate from './Components/growthx-elevate-main/growthx-elevate-main/src/Elevate.jsx'
 import Forteam from './Components/for team/src/Forteam.jsx'
+import Templatestask from './Components/temp/src/Templatestask.jsx'
 const router = createBrowserRouter([
   {
     path:'/',
@@ -73,6 +74,10 @@ const router = createBrowserRouter([
       {
         path: "for-teams",
         element: <Forteam/>
+      },
+      {
+        path: "Template",
+        element: <Templatestask/>
       }
      
     ]
