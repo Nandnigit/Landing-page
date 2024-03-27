@@ -8,14 +8,17 @@
   import App from './Components/task/App'
 import Cred from './Components/Cred/Cred'
 import DataLedpart4 from './Components/DataLed/DataLedpart4'
-// import FAQ_Home from './Components/src/FAQ_Home'
+
+import PhotoSlider from './Components/Community2-section/components/Photoslider'
+
+
   function Home(){
       return(
             <>
             <div className='home_body'>
             <h1 className='first_heading'>The Entrepreneurship Network Membership</h1>
             <p className="first_line">Structured learning, curated community & orbit<br/>changing outcomes – in one membership.</p>
-            <div class="line"></div>
+            <div className="line"></div>
             <button className='btn1'>Become a Member</button>
             <h3>Join leaders at marquee internet companies</h3>
             <img src="https://assets-global.website-files.com/63a49822ee2304acc9455a42/65842ad7fd3d64853ccdf1a7_homapge_logos%20(4)-p-1080.png" className="Homeimg"/>
@@ -23,8 +26,9 @@ import DataLedpart4 from './Components/DataLed/DataLedpart4'
             <App/>
             
          <Threepillors/>
-         <Community2/>
             <Member/>
+         <Community2/>
+         <PhotoSlider />
         <Threeoutcomes/>
         <AnnualRetreatSection/>
         <ExHeadTestimonialSection/>

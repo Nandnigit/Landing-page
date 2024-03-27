@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 // import logo from "./assest/logo";
 import { useState } from "react";
 import "./Navbar.css";
@@ -7,13 +7,27 @@ import "./Navbar.css";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
+  const [hideNav, setHideNav] = useState(false);
+  const location = useLocation();
+
+
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
 
+  useEffect(() => {
+    let path = location.pathname;
+    if(path === '/login' || path === '/register' || path === '/dashboard'){
+      setHideNav(true)
+    }
+    else {
+      setHideNav(false)
+    }
+  }, [location])
+
   return (
     <>
-      <nav className={`${showMenu ? "show-menu" : ""}`} id="navbar-start">
+      <nav className={`${showMenu ? "show-menu" : ""} ${hideNav && 'remove-nav'} `} id="navbar-start">
         <Link to="/" id="nav-logo">
           {/* <img src={logo} alt="logo" height="33" loading="lazy" /> */}
         </Link>
@@ -38,10 +52,10 @@ const Navbar = () => {
           </li>
           <li className="nav-link-navbar">
             {/* <Link to="/library">Library</Link> */}
-            <div class="dropdown">
+            <div className="dropdown">
               <Link to="#"> Library </Link>
-      <i class="fa fa-caret-down"></i>
-    <div class="dropdown-content">
+      <i className="fa fa-caret-down"></i>
+    <div className="dropdown-content">
       <Link to="/Newsletter">Newsletter</Link>
       <Link to="/Template">Template</Link>
       <Link to="/Framework">Framework</Link>
@@ -50,10 +64,10 @@ const Navbar = () => {
   </div>
           </li>
           <li className="nav-link-navbar">
-            <div class="dropdown">
+            <div className="dropdown">
               <Link to="#"> CRAFTs </Link>
-      <i class="fa fa-caret-down"></i>
-    <div class="dropdown-content">
+      <i className="fa fa-caret-down"></i>
+    <div className="dropdown-content">
       <Link to="/Brandledgrowth">Brand LED Growth</Link>
       <Link to="/Partnershipledgrowth">Partnership LED Growth</Link>
       <Link to="/Eventledgrowth">Event LED Growth</Link>

@@ -9,13 +9,13 @@ function Threeoutcomes() {
           <p>Design to help you change orbits</p>
         </div>
         <div className="bodypart">
-          <spam className="threeout-image">
+          <span className="threeout-image">
             <img
               src="https://assets-global.website-files.com/63a49822ee2304acc9455a42/655e0e4b6053d5ab615da6a0_for-founers.svg"
               alt="growthx-membership-growth-x-GrowthX outcomes for founder"
               className="outcomes-img"
             />
-          </spam>
+          </span>
           <div className="threeout_box">
             <div className="box-threeout box1">
               Retention of cracks to guarantee PMF integrity<br />
@@ -37,13 +37,13 @@ function Threeoutcomes() {
         </div>
     
         <div className="bodypart">
-          <spam className="threeout-image">
+          <span className="threeout-image">
             <img
               src="https://assets-global.website-files.com/63a49822ee2304acc9455a42/655e0e96264f4f7c5e1058ca_for-operators.svg"
               alt="growthx-membership-growth-x-GrowthX outcomes for operators"
               className="outcomes-img"
             />
-          </spam>
+          </span>
           <div className="threeout_box">
             <div className="box-threeout box1">
               Create a five-year plan.
