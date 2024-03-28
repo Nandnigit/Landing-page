@@ -1,5 +1,5 @@
 import "./App.css";
-function App() {
+function Elevate() {
   return (
     <>
       {/* <Navbar /> */}
@@ -268,4 +268,4 @@ function App() {
   );
 }
 
-export default App;
+export default Elevate;

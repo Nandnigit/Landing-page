@@ -4,7 +4,7 @@ import Navbar from './Components/Header/Navbar'
 import Grid from './Components/upper-Grid/U-Grid'
 import Footer_newsletter from './Components/Footer/Footer_newsletter'
 
-function App() {
+function Newsletter() {
 
   return (
     <>
@@ -16,4 +16,4 @@ function App() {
   )
 }
 
-export default App
+export default Newsletter

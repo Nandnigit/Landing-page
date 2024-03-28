@@ -10,10 +10,10 @@ import Threeoutcomes from './Components/ThreeOutcomes/Threeoutcomes.jsx'
 import DataLed from './Components/DataLedGrowth/DataLed.jsx'
 // import Partnership from './Components/PartnershipLEDGrowth/PartnershipLEDGrowth/PartnershipLed.jsx'   Partner ship fileis not there
 import EventLed from './Components/EventLedGrowth/EventLed.jsx'
-import Newsletter from './Components/NewsLetter-master/src/Newsletter.jsx'
-import Framework from './Components/framwork-task (2)/framwork-task/framwork/src/Framework.jsx'
-import Elevate from './Components/growthx-elevate-main/growthx-elevate-main/src/Elevate.jsx'
-import Forteam from './Components/for team/src/Forteam.jsx'
+import Newsletter from './Components/NewsLetter-master/Newsletter.jsx'
+import Framework from './Components/framwork-task (2)/Framework.jsx'
+import Elevate from './Components/growthx-elevate-main/Elevate.jsx'
+import Forteam from './Components/for team/Forteam.jsx'
 // import Templatestask from './Components/temp/src/Templatestask.jsx'     file is not there
 
 import PrivateRoute from './Components/Auth/PrivateRoute.jsx'

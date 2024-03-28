@@ -1,0 +1,345 @@
+.registerPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background: radial-gradient(
+      circle at center top,
+      rgb(30, 60, 119) 0%,
+      rgb(0, 0, 0) 80%,
+      rgb(0, 0, 0) 100%
+    )
+    0% 0% / cover no-repeat;
+  scroll-padding: 0px;
+  scroll-margin: 0px;
+}
+
+.registerPage-top {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  min-height: 86px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+.registerPage-logo {
+  position: absolute;
+  z-index: -1;
+  width: 140px;
+  height: auto;
+}
+
+.loginPage-btn {
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background-color: transparent;
+  outline: 0px;
+  margin: 0px 0px 0px auto;
+  cursor: pointer;
+  vertical-align: middle;
+  text-decoration: none;
+  line-height: 1.75;
+  min-width: 64px;
+  padding: 6px 40px;
+
+  position: absolute;
+  right: 2rem;
+  color: white;
+  border: 1px solid rgb(255, 255, 255);
+  /* width: fit-content; */
+  border-radius: 5px;
+  font-size: 0.8rem;
+  z-index: 1;
+}
+
+.registerPage-bottom {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: left;
+}
+
+.register-form-div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.form-question {
+  margin: 0px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 24px;
+  color: white;
+  text-align: left;
+}
+
+.form-question.otp {
+  margin-bottom: 0;
+}
+
+.option-question {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(167, 167, 167);
+  text-align: left;
+}
+.option-question.otp {
+  color: white;
+  font-size: 13px;
+}
+
+.form-options-div {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.register-form-label {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding-right: 1vw;
+  box-sizing: border-box;
+  min-width: 20vh;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.email-label {
+  cursor: text;
+  border: none;
+  width: 100%;
+}
+
+.email-input {
+  font: inherit;
+  width: 100%;
+  background-color: inherit;
+  border: none;
+  letter-spacing: inherit;
+  color: white;
+  padding: 4px 0px 5px;
+  outline: none;
+  text-align: left;
+  border-bottom: 1px solid rgb(134, 133, 128);
+  border-radius: 0;
+}
+/* For Firefox */
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Webkit browsers like Safari and Chrome */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-radio {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  background-color: transparent;
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  padding: 9px;
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1em;
+  height: 1em;
+  border: 0.15em solid white;
+  border-radius: 100%;
+  background-color: inherit;
+  display: grid;
+  place-content: center;
+  padding: 10px 10px;
+}
+
+input[type="radio"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em white;
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+.register-form-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  min-width: 64px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px,
+    rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+  background: white;
+  color: black;
+  font-weight: 700;
+  text-transform: initial;
+}
+
+.register-form-btn-span {
+  margin: 0px 0px 0px 16px;
+  font-family: Gilroy;
+  font-size: 0.75rem;
+  line-height: 1.66;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.form-title {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+}
+
+.top-1 {
+  margin: 0px 0px 0.35em;
+  line-height: 1.5;
+  font-weight: 700;
+  color: white;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.few-questions {
+  margin: 0px 0px 0.35em;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.9;
+  font-size: 1rem;
+  color: white;
+  text-align: left;
+}
+
+.register-form-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  color: #e4e2e2;
+}
+
+.register-form-password-span {
+  position: absolute;
+  right: 3%;
+  top: 0;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.register-terms {
+  font-size: 11px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+/* checkbox  */
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: inherit;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  width: 11px;
+  height: 11px;
+  border: 2px solid white;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+  padding: 6px 6px;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em black;
+  transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+input[type="checkbox"]:checked {
+  background-color: #fff;
+}
+
+@media screen and (min-width: 900px) {
+  .registerPage-bottom {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .registerPage-bottom {
+    width: 700px;
+  }
+}

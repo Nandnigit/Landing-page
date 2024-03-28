@@ -8,7 +8,7 @@ import BrandSection from './Components/Teams-BrandSection/BrandSection.jsx'
 import HireTheBest from './Components/HireBestSection/HireTheBest.jsx'
 import HiringSprints from './Components/HiringSprintsSection/HiringSprints.jsx'
 import ForTeam from './Components/LastSection/forteamreact.jsx'
-function App() {
+function Forteam() {
 
   return (
    <>
@@ -24,4 +24,4 @@ function App() {
   )
 }
 
-export default App
+export default Forteam
