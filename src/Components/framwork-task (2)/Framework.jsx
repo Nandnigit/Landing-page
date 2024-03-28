@@ -4,7 +4,7 @@ import './App.css';
 import React from 'react';
 
 
-function YourComponent() {
+function Framework() {
 
     return (
       <div className='main-div'>
@@ -112,4 +112,4 @@ function YourComponent() {
     );
   }
   
-  export default YourComponent;
+  export default Framework;
